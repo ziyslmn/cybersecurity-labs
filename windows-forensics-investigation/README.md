@@ -1,29 +1,30 @@
 # Windows System Forensics Investigation
 
 ## Objective
-The goal of this project was to investigate a Windows system using forensic techniques to identify system activity, user behavior, and potential security events.
+The objective of this investigation was to analyze Windows system artifacts in order to reconstruct system activity and identify potential security-relevant events.
 
 ## Tools Used
-• Windows Event Viewer  
-• Sysinternals tools  
-• Windows forensic utilities  
 
-## Investigation Activities
+- Windows Event Viewer
+- Sysinternals tools
+- Windows forensic utilities
 
-The investigation included several forensic analysis tasks:
+## Investigation Workflow
 
-• Examining Windows artifacts to identify user activity  
-• Analyzing Windows Event Logs to identify login activity and system events  
-• Investigating running processes and system information  
-• Reviewing timestamps and file system artifacts to reconstruct system activity  
+1. Examine Windows system artifacts to identify user activity.
+2. Review Windows Event Logs to identify login events and system activity.
+3. Analyze running processes and system information.
+4. Investigate timestamps and file system artifacts.
+5. Correlate artifacts to reconstruct system activity.
+6. Document findings relevant to security investigation.
 
 ## Findings
 
-The investigation revealed multiple artifacts that can be used to reconstruct system activity, including login events, system processes, and file system timestamps. Event log analysis provided insight into system operations and potential indicators relevant to security monitoring.
+The investigation revealed multiple system artifacts that provide insight into user activity and system events. Event log analysis helped identify login activity, system operations, and other relevant forensic indicators.
 
 ## Skills Demonstrated
 
-• Windows system forensic analysis  
-• Event log investigation  
-• Digital artifact analysis  
-• Security incident investigation
+- Windows forensic artifact analysis
+- Event log investigation
+- Digital evidence analysis
+- Security incident investigation
