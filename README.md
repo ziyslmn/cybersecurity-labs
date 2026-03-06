@@ -8,39 +8,46 @@ These projects demonstrate practical experience in:
 • Windows and Linux forensic investigations  
 • disk image analysis  
 • volatile artifact collection  
-• file recovery and data carving
+• file recovery and data carving  
+• network traffic analysis  
+
 ---
 
 ## Featured Projects
 
 ### [Static Malware Analysis Investigation](./static-malware-analysis)
-Performed static analysis on a suspicious Windows executable to identify indicators of compromise, analyze PE structure, and investigate potential command-and-control behavior.
+Performed static analysis on a suspicious Windows executable to identify indicators of compromise, analyze PE file structure, and investigate potential malicious behavior.
 
 ### [Windows System Forensics Investigation](./windows-forensics-investigation)
-Investigated Windows artifacts including event logs, system activity, and user behavior to reconstruct system events and identify security-relevant activity.
+Investigated Windows system artifacts including event logs, user activity, and system processes to reconstruct system behavior and identify security-relevant activity.
 
 ### [Linux System Forensics Investigation](./linux-forensics-investigation)
 Analyzed Linux system artifacts, network activity, and potential rootkit indicators using forensic and network analysis tools.
 
 ### [Volatile Data Collection and Live System Analysis](./volatile-data-collection)
-Collected and analyzed volatile artifacts from a running system including processes, network connections, routing tables, and system memory information.
+Collected and analyzed volatile artifacts from a running system including processes, network connections, routing tables, and memory-related system information.
 
 ### [Disk Image Forensics (Autopsy Investigation)](./disk-image-forensics-autopsy)
-Used Autopsy to analyze a forensic disk image, recover artifacts, examine file system structures, and reconstruct potential user activity.
+Used Autopsy to analyze a forensic disk image, examine file system structures, recover artifacts, and reconstruct potential user activity.
 
 ### [File Recovery and Data Carving](./file-recovery-data-carving)
-Recovered deleted files and artifacts from storage media using forensic data carving tools and disk imaging techniques.
+Recovered deleted files and artifacts from storage media using forensic disk imaging and data carving techniques.
+
+### [TLS Traffic Analysis with Wireshark](./tls-traffic-analysis-wireshark)
+Analyzed a TLS-encrypted HTTPS session using Wireshark to examine the TCP connection establishment, TLS handshake process, certificate exchange, cipher suite negotiation, and encrypted application data.
 
 ---
 
 ## Skills Demonstrated
 
 - Static malware analysis  
-- Windows artifact analysis  
+- Windows forensic artifact analysis  
 - Linux system investigation  
 - Volatile data collection  
-- Disk image analysis  
+- Disk image forensic analysis  
 - File recovery and data carving  
+- Network traffic analysis  
+- TLS handshake investigation  
 - Log analysis  
 - Network security fundamentals  
 
@@ -59,6 +66,10 @@ Recovered deleted files and artifacts from storage media using forensic data car
 - Strings analysis  
 - VirusTotal  
 - Hybrid Analysis  
+
+### Network Analysis
+- Wireshark  
+- Packet inspection and protocol analysis  
 
 ### Systems & Virtualization
 - Linux  
