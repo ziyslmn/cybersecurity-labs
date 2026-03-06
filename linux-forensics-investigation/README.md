@@ -14,7 +14,7 @@ Artifact Recovery
 - swap_digger
 - mimipenguin
 
-System Integrity & Rootkit Detection
+System Integrity
 - rkhunter
 - chkrootkit
 
@@ -25,32 +25,25 @@ File Analysis
 
 Disk Image Forensics
 - The Sleuth Kit
-- fls
-- fsstat
-- ils
-- img_stat
-- fiwalk
 
-## Investigation Activities
+## Investigation Workflow
 
-The investigation included several Linux forensic techniques:
-
-- Passive operating system fingerprinting using **p0f**
-- Network discovery and device enumeration using **arp-scan** and **nmap**
-- Analysis of swap memory artifacts using **swap_digger**
-- Extraction of credentials from active sessions using **mimipenguin**
-- Rootkit detection using **rkhunter** and **chkrootkit**
-- File content inspection using **ascii**, **xxd**, and **strings**
-- Disk image forensic analysis using **The Sleuth Kit**
+1. Perform passive operating system fingerprinting using p0f.
+2. Identify network devices using arp-scan and nmap.
+3. Analyze swap memory artifacts using swap_digger.
+4. Attempt credential extraction using mimipenguin.
+5. Check system integrity using rkhunter and chkrootkit.
+6. Inspect file contents using ascii, xxd, and strings.
+7. Analyze disk image artifacts using Sleuth Kit tools.
 
 ## Findings
 
-The analysis demonstrated how Linux forensic tools can be used to identify network activity, recover sensitive artifacts from system memory, detect potential rootkits, and examine file system metadata within forensic disk images.
+The investigation demonstrated how Linux forensic tools can be used to identify network activity, detect rootkits, and analyze file system metadata within forensic disk images.
 
 ## Skills Demonstrated
 
-- Linux system forensic analysis
-- Network discovery and enumeration
-- Artifact recovery and credential extraction
+- Linux forensic investigation
+- Network enumeration
 - Rootkit detection
-- Disk image forensic investigation
+- Artifact recovery
+- Disk image analysis
