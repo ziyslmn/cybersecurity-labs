@@ -1,7 +1,14 @@
 # Cybersecurity Labs
 
-This repository contains hands-on cybersecurity and digital forensics investigations completed during my Cybersecurity program at Northeastern Illinois University. These projects demonstrate malware analysis, system forensics, artifact recovery, and incident investigation techniques.
+Hands-on cybersecurity and digital forensics investigations completed during my Cybersecurity program at Northeastern Illinois University.
 
+These projects demonstrate practical experience in:
+
+• malware analysis  
+• Windows and Linux forensic investigations  
+• disk image analysis  
+• volatile artifact collection  
+• file recovery and data carving
 ---
 
 ## Featured Projects
